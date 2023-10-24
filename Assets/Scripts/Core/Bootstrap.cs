@@ -4,6 +4,7 @@ using Zenject;
 
 namespace CoinRunner.Core
 {
+    /// <summary> Main entry point. </summary>
     public class Bootstrap : MonoBehaviour
     {
         ISceneLoader sceneLoader;

@@ -2,6 +2,7 @@ using UnityEngine.SceneManagement;
 
 namespace CoinRunner.Infrastructure
 {
+	/// <summary> Load scenes by its names. </summary>
 	[GenConstructor]
 	public partial class SceneLoader: ISceneLoader
 	{
