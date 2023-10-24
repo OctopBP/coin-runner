@@ -18,7 +18,7 @@ namespace CoinRunner.Core
 		{
 			BindSceneLoader();
 			Container.Bind<Config>().FromInstance(config);
-			Container.Bind<System.Random>().FromInstance(new());
+			Container.Bind<System.Random>().FromInstance(new(Seed: 1));
 		}
 
 		void BindSceneLoader()
